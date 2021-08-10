@@ -1,0 +1,53 @@
+.resultInfo {
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 290px auto;
+    position: relative;
+}
+  
+.resultInfo p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.resultInfo img {
+    height: 360px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.resultInfo .column_1, .resultInfo .column_2 {
+    padding: 20px;
+}
+
+.resultInfo .info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.resultInfo span {
+    margin-bottom: 10px;
+}
+
+.resultInfo iframe {
+    height: 400px;
+    width: 100%;
+    border: none;
+}
+
+.resultInfo a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resultInfo .adaptation {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto;
+    margin-bottom: 20px;
+}
+

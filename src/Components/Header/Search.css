@@ -1,0 +1,56 @@
+.add-form {
+    display: grid;
+    grid-template-columns: auto 75px;
+}
+  
+button, input {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    font-family: 'Open Sans',sans-serif;
+}
+  
+.btn {
+    background: rgba(255,255,255,.05);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-right: 1px solid rgba(255,255,255,.4);
+    border-top: 1px solid rgba(255,255,255,.4);
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    border-left: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgba(255,255,255,.6);
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+}
+  
+.form-control input {
+    background: rgba(255,255,255,.05);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left: 1px solid rgba(255,255,255,.4);
+    border-top: 1px solid rgba(255,255,255,.4);
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    border-right: transparent;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    outline: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    text-rendering: auto;
+}
+  
+::placeholder {
+    color: rgba(255,255,255,.6);
+}

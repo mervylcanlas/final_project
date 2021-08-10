@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background: linear-gradient(to right,rgba(32,32,32,1),rgb(54, 54, 54));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1000px;
+  margin: 10px auto;
+  min-height: 300px;
+  /* border: 1px solid steelblue; */
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.results {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  font-family: 'Open Sans',sans-serif;
+  overflow: auto;
+  transition: 1s transform;
+}
+
+.result {
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,.4);
+  padding: 20px;
+}
+
+.result img {
+  height: 190px;
+  width: 135px;
+  object-fit: fill;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.title {
+  overflow: hidden;
+  word-wrap: break-word;
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(54, 54, 54); 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(32,32,32,1); 
+  border-radius: 10px;
 }
